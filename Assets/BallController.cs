@@ -25,6 +25,7 @@ public class BallController : MonoBehaviour
     void Start()
     {
         this.gameoverText = GameObject.Find("GameOverText");
+        //‰Û‘è1
         this.scoreText = GameObject.Find("ScoreText");
     }
 
@@ -36,6 +37,7 @@ public class BallController : MonoBehaviour
             this.gameoverText.GetComponent<Text>().text = "Game Over";
 
         }
+        //‰Û‘è1
         this.scoreText.GetComponent<Text>().text = "Score: " + this.gameScore.ToString();
 
     }
